@@ -1,0 +1,85 @@
+/* Tema dark */
+body.theme-dark {
+  background-color: #202329;  
+}
+
+.theme-dark .btn-theme {
+  background-color: #202329;
+  color: #ffffff;
+}
+
+.theme-dark .container-theme {
+  background-color: #272727;
+  color: #ffffff;  
+}
+
+.theme-dark .input-theme,
+.theme-dark .textarea-theme,
+.theme-dark .select-theme{  
+  color: rgba(var(--bs-body-color-rgb),.65); 
+  font-size: smaller;
+}
+
+.theme-dark .menu-theme {
+  background-color: #202329;
+  color: #f7f7f8;
+}
+
+.theme-dark .sidebar-theme{
+  background-color: #272727;
+  color: #f7f7f8;
+  border: solid 1px #161616;
+}
+
+.theme-dark .border-theme {
+  border: solid 1px #161616;
+}
+
+.theme-dark .contact-item-theme.selected{
+  background-color: #5c5b5b93;
+  border-radius: .25rem;  
+}
+
+.theme-dark .message-item-theme.message-item-assistant {
+  background-color: #5c5b5b93;
+  border-radius: .25rem;  
+}
+
+.theme-dark .message-separator-theme{
+  border: dashed 1px #dfdfdf;
+  border-radius: .25rem;  
+}
+
+
+/* Tema light */
+
+body.theme-light {
+  background-color: #f7f7f8;
+  color: #1f2123;
+}
+
+.theme-light .btn-theme {
+  background-color: #1f2123;
+  color: #f7f7f8;
+}
+
+.theme-light .input-theme,
+.theme-light .textarea-theme,
+.theme-light .select-theme,
+.theme-light .container-theme {
+  background-color: #f7f7f8;
+  color: #1f2123;  
+}
+
+.theme-light .menu-theme {
+  background-color: #f7f7f8;
+  color: #1f2123;  
+}
+
+.theme-light .sidebar-theme{
+  background-color: #f7f7f8;
+  color: #1f2123;  
+  border: solid 1px #161616;
+  border-radius: .5rem 0 0 0;
+  overflow: hidden;
+}

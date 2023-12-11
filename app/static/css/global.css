@@ -1,0 +1,111 @@
+/* global.css */
+/* Defina aqui estilos globais para elementos de conteúdo comuns */
+
+html, body {
+  height: 100%;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1;  
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+/* Estilos para a barra de navegação (exemplo) */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+/* Adicione mais estilos globais conforme necessário para o seu projeto */
+
+#contact-list {
+  padding: .5rem;
+  max-width: 300px;
+}
+
+.chat-header{
+  height: 60px;
+}
+
+.chat-container{
+  height: calc(100vh - 60px);
+}
+
+.menu-theme,
+.container-theme {
+  max-height: 100vh; /* Define a altura máxima como 100% da altura da viewport */
+  overflow-y: hidden; /* Esconde a barra de rolagem no elemento pai */
+}
+
+
+.chat-history {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Ocupa o espaço restante verticalmente */
+  overflow-y: auto; /* Adiciona uma barra de rolagem quando necessário */
+}
+
+.message-separator{
+  width: fit-content;
+  padding: 0.5rem;  
+  margin: 0.5rem auto;
+}
+
+.container-image-message{
+  width: fit-content;
+  height: auto;
+  position: relative;
+}
+
+.image-message{
+  width: 15rem;
+  height: auto;
+  cursor: pointer;
+}
+
+.image-message-fullscreen {
+  width: 90%;  
+}
+
+.image-message-fullscreen.reduced {
+  width:auto;
+  max-height: 70vh;
+}
+
+.image-message-visibility{
+  position: absolute;
+  top: .5rem;
+  right: .5rem;  
+  cursor: pointer;
+  color: #ccc;
+}
+
+.image-message.blurred{
+  filter: blur(10px);
+}

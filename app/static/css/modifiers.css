@@ -1,0 +1,69 @@
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.rounded-left {
+  border-top-left-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+  overflow: hidden !important;
+}
+
+.rounded-right {
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+  overflow: hidden !important;
+}
+
+.smaller {
+  font-size: 0.75rem !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.w-fit {
+  width: fit-content !important;
+}
+
+.w-10{
+  width: 10% !important;
+}
+.w-20{
+  width: 20% !important;
+}
+.w-30{
+  width: 30% !important;
+}
+.w-40{
+  width: 40% !important;
+}
+.w-50{
+  width: 50% !important;
+}
+.w-60{
+  width: 60% !important;
+}
+.w-70{
+  width: 70% !important;
+}
+.w-80{
+  width: 80% !important;
+}
+.w-90{
+  width: 90% !important;
+}
+.w-100{
+  width: 100% !important;
+}
+
+.zoom-in {
+  cursor: zoom-in;
+}
+.zoom-out {
+  cursor: zoom-out;
+}
