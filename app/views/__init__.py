@@ -6,3 +6,8 @@ from app import app
 def index():
     # users = UserRepository.get_all_users()
     return render_template('login.html')
+
+@app.route('/signup')
+def signup():
+    # users = UserRepository.get_all_users()
+    return render_template('signup.html')
